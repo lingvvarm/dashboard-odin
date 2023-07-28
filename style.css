@@ -21,7 +21,7 @@
     background-color: #1992d4;
     color: white;
     font-weight: bold;
-    padding: 15px;
+    padding: 10px;
 }
 
 .first-block,
@@ -78,14 +78,40 @@
 
 .navbar {
     display: grid;
-    grid-template-columns: 1fr 8fr 1fr 1fr 2fr;
+    grid-template-columns: 50px 7fr 1fr 0.5fr 0.9fr;
+    grid-template-rows: 70px;
     align-items: center;
+    column-gap: 10px;
+}
+
+.search-bar {
+    background-color: #EBEBEB;
+    border: none;
+    border-radius: 12px;
+    height: 28px;
+    justify-self: none;
+    padding: 5px;
+    box-sizing: border-box;
 }
 
 .nav-icon {
-    height: 20px;
+    height: 25px;
+}
+
+.nav-text {
+    font-weight: bold;
+}
+
+.bell-icon,
+.search-icon {
+    justify-self: end;
+}
+
+.bell-icon {
+    margin-right: 20px;
 }
 
 .nav-avatar {
-    height: 35px;
+    height: 40px;
+    border-radius: 50%;
 }

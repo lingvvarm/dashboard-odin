@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-container {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr 5fr;
+}
+
+.header,
+.main-content {
+    grid-column: 2 / 3;
+}
+
+
+.sidebar {
+    grid-row: 1 / 3;
+    background-color: #1992d4;
+    color: white;
+    font-weight: bold;
+    padding: 15px;
+}
+
+.first-block,
+.second-block,
+.third-block {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    align-items: center;
+    row-gap: 20px;
+}
+
+.first-block {
+    column-gap: 10px;
+}
+
+.second-block,
+.third-block {
+    column-gap: 10px;
+}
+
+.first-block {
+    margin-bottom: 40px;
+}
+
+.second-block {
+    margin-bottom: 50px;
+}
+
+
+.dash-main-text {
+    font-size: 1.5rem;
+}
+
+.dash-text {
+    font-size: 1.2rem;
+}
+
+.dash-icon {
+    height: 20px;
+    filter: invert(100%) sepia(0%) saturate(7459%) hue-rotate(126deg) brightness(100%) contrast(100%);
+    justify-self: center;
+}
+
+.dash-main-icon {
+    height: 50px;
+    filter: invert(100%) sepia(0%) saturate(7459%) hue-rotate(126deg) brightness(100%) contrast(100%);
+}
+
+
+.header {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.navbar {
+    display: grid;
+    grid-template-columns: 1fr 8fr 1fr 1fr 2fr;
+    align-items: center;
+}
+
+.nav-icon {
+    height: 20px;
+}
+
+.nav-avatar {
+    height: 35px;
+}

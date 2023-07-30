@@ -193,7 +193,7 @@
 
 .your-projects-text,
 .announcments-text,
-.trending-text {
+.trending-header {
     margin-bottom: 10px;
     font-weight: bold;
     font-size: 1.2rem;
@@ -230,11 +230,6 @@
     height: 300px;
 }
 
-.announce-elem:not(:last-child) {
-    border-bottom: 0.1px solid gray;
-    padding-bottom: 20px;
-}
-
 .announce-header {
     font-weight: bold;
     font-size: 1.1rem;
@@ -247,4 +242,32 @@
 
 .trending {
     grid-column: 2 / 3;
+}
+
+.trending-container {
+    background-color: white;
+    padding: 20px 0 20px 40px;
+    border-radius: 8px;
+    
+}
+
+.trending-elem {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    grid-template-rows: 1.4rem 1.7rem;
+    column-gap: 7px;
+}
+
+.trending-tag,
+.trending-text {
+    grid-column: 2 / 3;
+}
+
+.trending-text {
+    color: #9E9E9E;
+}
+
+.trending-icon {
+    height: 35px;
+    border-radius: 50%;
 }
